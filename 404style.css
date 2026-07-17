@@ -1,0 +1,56 @@
+@font-face {
+	font-family: BodyFont;
+	src: url(Poppins-Regular.ttf)
+}
+@font-face {
+	font-family: kostyaa;
+	src: url(Jost-Bold.ttf)
+}
+@font-face {
+	font-family: nett;
+	src: url(Jost-Medium.ttf)
+}
+
+p {
+	font-family: BodyFont;
+	font-size: 1.3em;
+}
+lib {
+	font-family: nett;
+	font-size: 1.8em;
+	color: #7B929C;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#header {
+	display: flex;
+}
+
+.menuDiv {
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: 100%;
+	height: 5.5em;
+	margin: 0;
+	padding: 0;
+	padding-left: 1em;
+	padding-top: 1em;
+	background-color: lightblue;
+}
+
+.mainDiv {
+	top: 0;
+	left: 0;
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-top: 1em;
+	text-align: center;
+}
